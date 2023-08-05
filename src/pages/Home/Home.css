@@ -1,0 +1,122 @@
+.allblogs{
+      margin: 1rem 2rem;
+      padding: 1rem;
+      box-shadow: 0px 2px 10px darkgray;  
+      border: 1px solid red;
+      border-radius: 10px;
+
+      /* padding: 1rem; */
+}
+
+.blog{
+      margin: 1rem 0px;
+      /* padding: 1rem; */
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 1rem;
+      height: max-content;
+      width: 90%;
+      margin-left: 5%;
+      padding-bottom: 2rem;
+      border-bottom: 1px dashed white;
+}
+
+.left{
+      flex: 3;
+      max-height: 100%;
+      box-shadow: 0px 2px 10px darkgray;      
+      border-radius: 10px;
+}
+
+.left .blog-image {
+      width: 100%; /* Make the image fit the entire width of the parent div */
+      height: 100%; /* Maintain the aspect ratio of the image */
+      display: block; /* Remove default spacing around the image */
+      border-radius: 10px;
+    }
+
+.blog .right{
+      flex: 6;
+      padding: 0.5em;
+      color: rgb(157, 154, 154);
+      display: flex;
+      font-size: 1.15rem;
+      flex-direction: column;
+      gap : -20px;
+}
+
+.shortDescripion{
+      flex: 7;
+      font-size: 100% !important;
+      margin-top: -20px;
+      text-align: justify;
+      
+      /* border: 1px solid red; */
+}
+
+.blogHeading{
+      color: red;
+      flex: 2;
+      margin-top: 2px;
+      font-size: 150%;
+      text-align: justify;
+      /* border: 1px solid yellow; */
+}
+
+.readmoreBtn{
+      flex: 2;
+      font-weight: bold;
+      color: #fff;
+      background-color: rgb(74, 72, 72); /* Blue color, you can change to any color you like */
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      padding: 2px 4px;
+      font-size: 1rem;
+      /* height: 1.2rem; */
+      width: 10rem;
+      align-self : left;
+      color: rgb(174, 166, 166);
+      
+}
+
+.readmoreBtn:hover{
+      box-shadow: 0px 2px 10px darkgray;      
+      font-size: 18px;
+}
+
+.username{
+      /* position: sticky; */
+     margin-left: 10%;
+      margin-top: -2rem;
+}
+
+/* media querry  */
+@media (max-width: 768px) {
+      .blog{
+
+            margin: 1rem !important;
+            /* padding: 1rem; */
+            display: flex;
+            flex-direction: column !important;
+            justify-content: space-between;
+            gap: 1rem;
+            height: max-content;
+            width: 90%;
+            margin-left: 5%;
+            padding-bottom: 1rem !important;
+            border-bottom: 1px dashed white;
+      }
+
+      .left{
+            flex: 3;
+            max-height: 100%;
+            box-shadow: 0px 2px 10px darkgray;      
+            border-radius: 10px;
+            margin-left: 2% !important;
+            /* border: 1px solid red; */
+      }
+}

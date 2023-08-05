@@ -1,0 +1,336 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,500&family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap');
+
+*{
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+ul,
+li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+}
+
+.navbar {
+      color: #fff;
+      padding: 10px;
+}
+
+.container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.logo {
+      width: 50px;
+      height: 50px;
+}
+
+.links {
+      display: flex;
+      gap: 20px;
+      position: absolute;
+      right: 10px;
+}
+
+.links a {
+      color: #fff;
+      text-decoration: none;
+      font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.container {
+      width: auto;
+      height: 5vh;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      margin-left: 0.3rem;
+      margin-right: 0.3rem;
+      padding: 10px 0px;
+      justify-content: center;
+      border: 1px solid gray;
+      position: sticky;
+      top: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: gray;
+      border-radius: 10px;
+
+}
+
+
+.logo {
+      position: absolute;
+      left: 1rem;
+      padding: 0px;
+      border: 1px solid gray;
+      max-width: 100%;
+      height: 35px;
+      border-radius: 50%;
+}
+
+.logo {
+      width: 2rem;
+}
+
+.links {
+      display: flex;
+      gap: 10px;
+      justify-content: right;
+      margin-right: 5px;
+}
+
+.authLinks{
+      
+      position: absolute;
+      right: 1.5rem;
+      display: flex;
+      gap: 20px;
+}
+
+.links a {
+      text-decoration: none;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      background-color: #242424;
+      font-family: 'Poppins', sans-serif;
+}
+
+.authLinks a{
+      text-decoration: none;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      background-color: #242424;
+      font-family: 'Poppins', sans-serif;
+}
+
+.links a:hover {
+      box-shadow: 1px 1px 2px white;
+      color: #fff;
+}
+
+.authLinks a:hover{
+      box-shadow: 1px 1px 2px white;
+      color: #fff;
+}
+
+.mobile-menu {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      position: absolute;
+      right: 10px;
+      top: 60px;
+      
+    }
+    @media screen and (min-width: 600px) {
+    .hamburger{
+      display: none !important;
+    }
+}
+@media (max-width: 600px) {
+  .links {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: flex;
+  }
+
+  .hamburger-menu-open .links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hamburger-menu-open .links a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+} */
+
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,500&family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap');
+
+* {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Reset some default styles for ul and li elements */
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar {
+  color: #fff;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  /* Adjust the width to your logo's size */
+  height: 50px;
+  /* Adjust the height to your logo's size */
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  right: 10px;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+  width: auto;
+  height: 5vh;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  padding: 10px 0px;
+  justify-content: center;
+  border: 1px solid gray;
+  position: sticky;
+  top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.logo {
+  position: absolute;
+  left: 1rem;
+  padding: 0px;
+  border: 1px solid gray;
+  max-width: 100%;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.logo {
+  width: 2rem;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+  justify-content: right;
+  margin-right: 5px;
+}
+
+.authLinks {
+  position: absolute;
+  right: 1.5rem;
+  display: flex;
+  gap: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background-color: #242424;
+  font-family: 'Poppins', sans-serif;
+}
+
+.authLinks a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background-color: #242424;
+  font-family: 'Poppins', sans-serif;
+}
+
+.links a:hover {
+  box-shadow: 1px 1px 2px white;
+  color: #fff;
+}
+
+.authLinks a:hover {
+  box-shadow: 1px 1px 2px white;
+  color: #fff;
+}
+
+/* Mobile menu styles */
+.mobile-menu {
+  display: none;
+}
+
+@media (min-width: 600px) {
+      .hamburger{
+            display: none;
+      }
+}
+
+
+/* Media query for mobile menu */
+@media (max-width: 600px) {
+  .links {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    margin-left: 85%;
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    /* Add other styles for the mobile menu here */
+  }
+
+  .mobile-menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .hamburger-menu-open .links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hamburger-menu-open .links a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+}

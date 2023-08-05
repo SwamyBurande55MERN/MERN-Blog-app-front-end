@@ -1,0 +1,100 @@
+
+
+.leftcontainer{
+      /* border: 1px solid blue; */
+      width: 60%;
+      margin-top: 1rem;
+      margin-left:19%;
+      height: 24rem;
+      box-shadow: 0px 2px 10px darkgray;  
+      border-radius: 10px;
+    
+}
+.headin{
+      color: red;
+      text-align: center;
+}
+
+.leftcontainer .detailsImg{
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+}
+
+.details{
+      /* border: 1px solid red; */
+      border-bottom: 2px dashed white;
+      padding: 0px 1rem;
+      padding-top: 1rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+      height: max-content;
+      font-size: 1.3rem;
+      margin-top: -1rem;
+      color: rgb(157, 154, 154);
+      text-align: justify;
+}
+
+.longDescription{
+      /* border: 1px solid pink; */
+      padding: 1rem;
+      margin: 0px 3rem;
+      height: max-content;
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+      color: rgb(157, 154, 154);
+      text-align: justify;
+}
+
+.mainbox{
+      box-shadow: 0px 2px 10px darkgray;     
+      padding: 1rem 0px;
+      margin: 1rem 1rem; 
+      border-radius: 10px;
+}
+
+/* media querry */
+@media (max-width: 768px) {
+      .leftcontainer{
+            /* border: 1px solid blue; */
+            width: 96% !important;
+            margin-top: 1rem;
+            margin-left:2% !important;
+            height: 20rem !important;
+            box-shadow: 0px 2px 10px darkgray;  
+            border-radius: 10px;
+          
+      }
+
+      .details{
+            /* border: 1px solid red; */
+            border-bottom: 2px dashed white;
+            padding: 0px 1rem;
+            padding-top: 1rem;
+            margin-left: 2% !important;
+            margin-right: 2% !important;
+            height: max-content;
+            font-size: 1.3rem;
+            margin-top: -1rem;
+            color: rgb(157, 154, 154);
+            text-align: justify;
+      }
+
+      .longDescription{
+            /* border: 1px solid pink; */
+            padding: 5px !important;
+            margin-left: 1% !important;
+            margin-right: 1% !important;
+            height: max-content;
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            color: rgb(157, 154, 154);
+            text-align: justify;
+      }
+
+      .headin{
+            color: red;
+            text-align: left !important;
+            margin-left: 2% !important;
+      }
+}
