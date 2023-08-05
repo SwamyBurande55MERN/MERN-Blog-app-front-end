@@ -62,10 +62,6 @@
       margin-top: 5vh;
 }
 
-.inputContainer :hover{
-      background: rgba(18, 18, 18, 0.3);
-}
-
 .bottomText{
       color: white;
 }
