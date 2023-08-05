@@ -13,7 +13,7 @@ const UserBlogs = () => {
       try {
         // console.log(id);
         const response = await axios.get(
-          `http://localhost:8999/api/v1/blogs/user-blogs/${id}`
+          `https://mern-blog-app-redux-toolkit.onrender.com/api/v1/blogs/user-blogs/${id}`
         );
         setBlogs(response.data.userBlogs.blogs); // Set the 'allblogs' array from the response data
       } catch (error) {

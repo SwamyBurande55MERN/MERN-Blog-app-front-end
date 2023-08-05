@@ -16,7 +16,7 @@ const Register = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8999/api/v1/userauth/user-register",
+        "https://mern-blog-app-redux-toolkit.onrender.com/api/v1/userauth/user-register",
         { username, email, password }
       );
 

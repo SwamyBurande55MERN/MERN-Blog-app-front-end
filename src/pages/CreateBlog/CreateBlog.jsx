@@ -17,7 +17,7 @@ const CreateBlog = () => {
     // console.log(id);
     try {
       const response = await axios.post(
-        "http://localhost:8999/api/v1/blogs/create-new-blog",
+        "https://mern-blog-app-redux-toolkit.onrender.com/api/v1/blogs/create-new-blog",
         {
           title,
           shortDescription,

@@ -28,7 +28,7 @@ const UpdateBlog = () => {
     e.preventDefault();
     try {
       const response = await axios.put(
-        `http://localhost:8999/api/v1/blogs/update-blog/${id}`,
+        `https://mern-blog-app-redux-toolkit.onrender.com/api/v1/blogs/update-blog/${id}`,
         {
           title,
           shortDescription,

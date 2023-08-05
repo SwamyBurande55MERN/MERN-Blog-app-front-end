@@ -11,7 +11,7 @@ function BlogDetails() {
     const fetchBlog = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:8999/api/v1/blogs/get-one-blog/${id}`
+          `https://mern-blog-app-redux-toolkit.onrender.com/api/v1/blogs/get-one-blog/${id}`
         );
         setFetchedBlog(response.data.blog);
       } catch (err) {
@@ -20,7 +20,7 @@ function BlogDetails() {
     };
 
     fetchBlog();
-    console.log(fetchedBlog);
+    // console.log(fetchedBlog);
   }, [id]);
 
   return (

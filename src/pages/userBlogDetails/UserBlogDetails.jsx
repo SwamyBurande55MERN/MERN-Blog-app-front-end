@@ -15,7 +15,7 @@ function UserBlogDetails() {
     const fetchBlog = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:8999/api/v1/blogs/get-one-blog/${id}`
+          `https://mern-blog-app-redux-toolkit.onrender.com/api/v1/blogs/get-one-blog/${id}`
         );
         setFetchedBlog(response.data.blog);
       } catch (err) {
@@ -34,7 +34,7 @@ function UserBlogDetails() {
     try {
       const blogId = fetchedBlog._id;
       const response = await axios.delete(
-        `http://localhost:8999/api/v1/blogs/delete-blog/${blogId}`
+        `https://mern-blog-app-redux-toolkit.onrender.com/api/v1/blogs/delete-blog/${blogId}`
       );
       if (response.data.success) {
         console.log(`blog deleted successfully`);

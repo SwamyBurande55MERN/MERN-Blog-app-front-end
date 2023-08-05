@@ -10,7 +10,7 @@ const Home = () => {
     const fetchBlogs = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:8999/api/v1/blogs/all-blogs"
+          "https://mern-blog-app-redux-toolkit.onrender.com/api/v1/blogs/all-blogs"
         );
         setBlogs(response.data.allblogs); // Set the 'allblogs' array from the response data
       } catch (error) {
